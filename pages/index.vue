@@ -39,6 +39,7 @@
         <div>
           <h1>Nuxt.js 是啥？</h1>
           <h3>Server Side Renader 前後端</h3>
+          <h3>基於Vue.js、Nitro以及Vite</h3>
           <hr>
           <h1>為啥使用 Nuxt.js ？</h1>
           <h3>Nuxt.js 狂熱分子推薦</h3>
@@ -124,7 +125,7 @@
           <h2>2. 告知伺服器新增使用者</h2>
           <h4>使用 RESTful API 攜帶 Access Token 向伺服器傳送請求</h4>
           <h4>伺服器取得請求後使用 Logto m2m API 取得使用者 Email</h4>
-          <h4>伺服器將該使用者 Email, Client ID 存入 mariaDB 資料庫中</h4>
+          <h4>伺服器將該使用者 Email, User ID 存入 mariaDB 資料庫中</h4>
           <hr>
           <h2>3. 取得所有聊天室內的訊息</h2>
           <h4>使用 RESTful API 攜帶 Access Token 向伺服器請求資料</h4>
@@ -137,7 +138,7 @@
           <hr>
           <h2>5. 使用者傳送訊息</h2>
           <h4>使用 RESTful API 攜帶 Access Token 向伺服器傳送請求</h4>
-          <h4>伺服器將傳送時間、Client ID 存入資料庫</h4>
+          <h4>伺服器將傳送時間、User ID 存入資料庫</h4>
           <h4>將該訊息轉為 Json 後傳至 WebSocket</h4>
           <h4></h4>
         </div>
